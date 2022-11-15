@@ -1,5 +1,6 @@
 .title {
 margin-right:10px;
+margin-top:-100px;
 }
 body {
   right:550px;
@@ -7,9 +8,10 @@ body {
 h1 {
   padding:center;
   font-size:70px;
-  padding:black;
-  background-color: blue;
-  border:100px solid black;
+  padding:skyblue;
+  /* background-color: blue; */
+  align-text:center;
+  border:100px solid skyblue;
 }
 h2 {
   font-size:40px;
@@ -17,19 +19,32 @@ h2 {
 }
 p {
   font-size:25px;
+
 }
 head {
   padding:center;
   background-color: blue;
-  border:100px solid black;
+  border:100px solid lawngreen;
 }
 li {
   font-size:20px;
   margin-right: 10px;
+  font-family:arial;
 }
 ul {
   margin-top:-30px;
   margin-bottom:150px;
-  border-bottom:50px solid black;
+  border-bottom:50px solid skyblue;
   padding:30px;
+}
+img {
+  border:5px solid lawngreen;
+}
+footer {
+  color:orange;
+  padding:crimson;
+  border:20px solid lawngreen;
+}
+footer p {
+  padding:crimson;
 }
